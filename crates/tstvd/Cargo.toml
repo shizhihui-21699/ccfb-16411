@@ -1,0 +1,14 @@
+[package]
+name = "tstvd"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "tstvd"
+path = "src/main.rs"
+
+[dependencies]
+tstv-core.workspace = true
+tstv-cas.workspace = true
+tstv-trace.workspace = true

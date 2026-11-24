@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/tstv-core", "crates/tstv-cas", "crates/tstv-trace", "crates/tstvd"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "MIT"
+
+[workspace.dependencies]
+tstv-core = { path = "crates/tstv-core" }
+tstv-cas = { path = "crates/tstv-cas" }
+tstv-trace = { path = "crates/tstv-trace" }
+aes = "0.8"
+sha2 = "0.10"
+hmac = "0.12"
+thiserror = "1"
+
+[profile.release]
+opt-level = 3

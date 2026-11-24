@@ -1,0 +1,11 @@
+[package]
+name = "tstv-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Deterministic crypto, wire-format and time primitives for the TSTV CAS research stack"
+
+[dependencies]
+aes.workspace = true
+sha2.workspace = true
+hmac.workspace = true

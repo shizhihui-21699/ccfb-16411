@@ -1,0 +1,9 @@
+[package]
+name = "tstv-trace"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tstv-core.workspace = true
+tstv-cas.workspace = true
